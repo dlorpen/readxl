@@ -1,0 +1,29 @@
+{
+  "name": "readxl",
+  "version": "1.0.0",
+  "description": "Read Excel file and output sheets to stdin",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prettier": "npx prettier --write .",
+    "package": "npx pkg --compress GZip ."
+  },
+  "keywords": [
+    "Excel"
+  ],
+  "author": "David Orpen",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "exceljs": "^4.2.1",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "pkg": "^5.2.0",
+    "prettier": "2.3.0"
+  },
+  "pkg": {
+    "outputPath": "dist"
+  }
+}
