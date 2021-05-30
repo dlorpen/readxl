@@ -13,7 +13,7 @@
     "Excel"
   ],
   "author": "David Orpen",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
     "exceljs": "^4.2.1",
